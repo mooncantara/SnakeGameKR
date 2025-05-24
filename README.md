@@ -1,12 +1,23 @@
-# React + Vite
+# 🐍 KrSnake Game - Классическая Змейка на React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Классическая игра "Змейка" с современными визуальными эффектами и тремя уровнями сложности. Проект разработан на React с TypeScript.
 
-Currently, two official plugins are available:
+## 🛠 Технологии
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React]
+![TypeScript]
+![Framer Motion]
+![CSS Modules]
 
-## Expanding the ESLint configuration
+- **TypeScript** - Статическая типизация
+- **Framer Motion** - Анимации элементов
+- **CSS Modules** - Локальные стили компонентов
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Особенности проекта
+
+### 🎯 Уникальные элементы
+- Три уровня сложности с разными механиками
+- Ядовитая еда на сложном уровне
+- Генерация случайных препятствий
+- Адаптивная скорость игры
+- Плавные анимации движения
