@@ -1,0 +1,44 @@
+.segment {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #3fa9f5 70%, #0a74da 100%);
+  transition: left 0.13s linear, top 0.13s linear;
+  box-shadow: 0 0 10px #0a74da33;
+}
+
+.snakeHead {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(90deg, #3fa9f5 70%, #0a74da 100%);
+  border-radius: 50% 60% 60% 50% / 50% 60% 60% 50%;
+  z-index: 2;
+  transition: left 0.13s linear, top 0.13s linear;
+  box-shadow: 0 0 10px #0a74da33;
+}
+
+.eyes {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 8px 0 0 0 white;
+  z-index: 3;
+}
+
+.pupil {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 2px;
+  height: 2px;
+  background: #222;
+  border-radius: 50%;
+  box-shadow: 8px 0 0 0 #222;
+  z-index: 4;
+}

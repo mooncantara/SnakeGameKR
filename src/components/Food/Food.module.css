@@ -1,0 +1,20 @@
+.food {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle at 60% 40%, #fff, #ff3325 70%, #d80000 100%);
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 2px 6px #c00a2c44;
+}
+
+.food::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  width: 4px;
+  height: 8px;
+  background: #5ba300;
+  border-radius: 2px;
+  transform: rotate(-30deg);
+}

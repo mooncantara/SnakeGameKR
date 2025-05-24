@@ -1,0 +1,55 @@
+.homePage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 40px;
+  color: #4caf50;
+}
+
+.difficultySelector {
+  margin: 40px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.startButton {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.startButton:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.gameDescription {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.gameDescription ul {
+  padding-left: 20px;
+}
+
+.gameDescription li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+.gameBoard {
+  position: relative;
+  background:
+    repeating-linear-gradient(0deg, #b9e86a 0 40px, #d3f37c 40px 80px),
+    repeating-linear-gradient(90deg, #b9e86a 0 40px, #d3f37c 40px 80px);
+  border-radius: 16px;
+  border: 8px solid #558a40;
+  margin: 0 auto;
+  box-shadow: 0 0 20px #4c703a44;
+}
